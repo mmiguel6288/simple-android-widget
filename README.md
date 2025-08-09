@@ -18,24 +18,28 @@ A native Android application that demonstrates a home screen widget implementati
 
 ## Building the App
 
-### Prerequisites
+### GitHub Actions (Recommended)
 
-- JDK 11 or higher
+This repository includes a GitHub Actions workflow that automatically builds the APK on every push to the main branch. The built APK is available as a downloadable artifact.
+
+**To build:**
+1. Push this repository to GitHub
+2. GitHub Actions will automatically build the APK
+3. Download the APK artifact from the Actions tab
+
+### Local Build (Advanced)
+
+For local development, you'll need:
+- JDK 11 or higher  
 - Android SDK (API level 21+)
 - Git
-
-### Local Build
 
 ```bash
 cd SimpleWidgetApp
 ./gradlew assembleDebug
 ```
 
-The APK will be generated at `app/build/outputs/apk/debug/app-debug.apk`
-
-### GitHub Actions
-
-This repository includes a GitHub Actions workflow that automatically builds the APK on every push to the main branch. The built APK is available as a downloadable artifact.
+Note: Local builds may require additional setup on ARM64 systems. GitHub Actions is recommended for reliable builds.
 
 ## Installation
 

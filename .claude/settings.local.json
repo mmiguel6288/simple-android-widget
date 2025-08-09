@@ -18,7 +18,16 @@
       "Bash(chmod:*)",
       "Bash(sudo docker stop:*)",
       "Bash(sudo docker:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(./gradlew:*)",
+      "Bash(cp:*)",
+      "Bash(true)",
+      "Bash(export ANDROID_HOME=/home/mattmig/repo/android-app/android-sdk)",
+      "Bash(echo:*)",
+      "Bash(android-sdk/cmdline-tools/latest/bin/sdkmanager:*)",
+      "Bash(export:*)",
+      "Bash(android-sdk/cmdline-tools/bin/sdkmanager:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

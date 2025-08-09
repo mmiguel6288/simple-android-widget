@@ -88,5 +88,11 @@ lint-results*.xml
 # Windows clutter
 Thumbs.db
 
-# Cordova/PhoneGap
-simple-widget-app/
+# Local Android SDK (use GitHub Actions instead)
+android-sdk/
+cmdline-tools/
+*.zip
+local.properties
+
+# Gradle wrapper jar (auto-downloaded)
+!gradle/wrapper/gradle-wrapper.jar
