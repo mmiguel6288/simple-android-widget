@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cordova build:*)",
+      "Bash(wget:*)",
+      "Bash(mkdir:*)",
+      "Bash(unzip:*)",
+      "Bash(mv:*)",
+      "Bash(java:*)",
+      "Bash(./accept_licenses.sh:*)",
+      "Bash(rm:*)",
+      "Bash(lsblk:*)",
+      "Bash(docker run:*)",
+      "Bash(curl:*)",
+      "Bash(sh:*)",
+      "Bash(sudo usermod:*)",
+      "Bash(sudo docker run:*)",
+      "Bash(chmod:*)",
+      "Bash(sudo docker stop:*)",
+      "Bash(sudo docker:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": []
+  }
+}
