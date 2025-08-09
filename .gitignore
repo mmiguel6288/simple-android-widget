@@ -94,5 +94,8 @@ cmdline-tools/
 *.zip
 local.properties
 
+# Claude Code settings
+.claude/
+
 # Gradle wrapper jar (auto-downloaded)
 !gradle/wrapper/gradle-wrapper.jar
