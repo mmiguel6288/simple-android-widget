@@ -27,7 +27,9 @@
       "Bash(android-sdk/cmdline-tools/latest/bin/sdkmanager:*)",
       "Bash(export:*)",
       "Bash(android-sdk/cmdline-tools/bin/sdkmanager:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh run view:*)"
     ],
     "deny": []
   }
